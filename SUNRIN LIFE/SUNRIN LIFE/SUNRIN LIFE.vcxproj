@@ -93,6 +93,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>31457280</StackReserveSize>
+      <StackCommitSize>31457280</StackCommitSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -143,7 +145,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="map.cpp" />
     <ClCompile Include="소스.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConsoleFunctions.h" />
+    <ClInclude Include="map.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
