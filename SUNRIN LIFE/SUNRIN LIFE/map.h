@@ -1,5 +1,7 @@
 #pragma once
 #include <iostream>
+//#include <Windows.h>
+#include "ConsoleFunctions.h"
 
 using namespace std;
 class map
@@ -24,7 +26,8 @@ public:
 					batch[i][32] = 1;
 
 				}
-				batch[9][16] = batch[9][2] = 0;
+				batch[10][16] = batch[10][1] = 0;
+				
 
 			
 				break;
@@ -61,6 +64,9 @@ public:
 		/*for (int i = 0; i < 50; i++) {
 			cout << ("бс");
 		}*/
+
+		gotoxy(16, 4);
+		cout << "2-5";
 	}
 	void removeMap() {
 		system("cls");

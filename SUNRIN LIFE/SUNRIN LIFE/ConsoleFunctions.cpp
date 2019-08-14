@@ -1,4 +1,4 @@
-#include "ConsoleFunctions.h"
+ #include "ConsoleFunctions.h"
 
 static CursorType cursorType;
 
