@@ -1,5 +1,5 @@
-﻿  getCursor.cpp
+﻿  Move.cpp
   소스.cpp
   코드를 생성하고 있습니다...
-C:\Users\JMS\Documents\GAME_PROGRAMMING_SUNRIN-LIFE\SUNRIN LIFE\SUNRIN LIFE\소스.cpp(13,6): warning C4101:  'a' :참조되지 않은 지역 변수입니다.
+C:\Users\JMS\Documents\GAME_PROGRAMMING_SUNRIN-LIFE\SUNRIN LIFE\SUNRIN LIFE\소스.cpp(14,6): warning C4101:  'a' :참조되지 않은 지역 변수입니다.
   SUNRIN LIFE.vcxproj -> C:\Users\JMS\Documents\GAME_PROGRAMMING_SUNRIN-LIFE\SUNRIN LIFE\Debug\SUNRIN LIFE.exe
