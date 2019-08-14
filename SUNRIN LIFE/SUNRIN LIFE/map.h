@@ -67,6 +67,7 @@ public:
 
 		gotoxy(16, 4);
 		cout << "2-5";
+		gotoxy(1, 1);
 	}
 	void removeMap() {
 		system("cls");

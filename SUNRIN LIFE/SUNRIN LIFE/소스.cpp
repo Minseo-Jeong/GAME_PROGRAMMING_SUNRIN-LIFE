@@ -5,26 +5,33 @@
 #include <stdio.h>
 #include "getCursor.h"
 #include "Move.h"
+#include <thread>
 
 using namespace std;
 
 
 
 int main() {
+
 	int a;
 	system("mode con cols=100 lines=40");
 	setCursorType(CursorInvisible);
+	
 	map m1;
+	map m2;
 	getCursor cur;
 	Move m;
+
+	
 
 	m1.mapNum(1);
 
 	m1.drawMap();
-	cur.printCursor();
-	while (1) {
-		m.moveCharacter("³ª");
-	}
+
+
+	m.moveCharacter();
+	//m.moveCharacter("¤±");
 	
-	
+	//thread threadM1(m.moveCharacter());
+	//thread threadM2();
 }
