@@ -140,7 +140,7 @@ public:
 			if (abs(sqrt((x1 - x) * (x1 - x) + (y1 - y)* (y1 - y)))<qual) {
 				gotoxy(30, 15);
 				setTextColor(ColorGreen);
-				cout << name << "Äù½ºÆ® ¼º°ø";
+				cout << name << "´Ô Äù½ºÆ® ¼º°ø";
 				Sleep(1000);
 				//system("PAUSE");
 				_getch();
