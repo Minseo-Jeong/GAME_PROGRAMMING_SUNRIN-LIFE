@@ -45,6 +45,7 @@ class Move
 
 public:
 	void printsc() {
+
 		gotoxy(85, 3);
 		cout << "           " << endl;
 		gotoxy(85, 4);
@@ -133,7 +134,7 @@ public:
 			else {
 				gotoxy(30, 15);
 				setTextColor(ColorRed);
-				cout <<name << "님 게임이 종료되었습니다.";
+				cout <<name << "님 게임이 종료되었습니다";
 				break;
 			}
 			moveCharacter();
@@ -145,7 +146,7 @@ public:
 				//system("PAUSE");
 				_getch();
 				gotoxy(30, 15);
-				cout << "             ";
+				cout << "                 ";
 				setTextColor(ColorWhite);
 				timetable++;
 				volunteer += 4;
@@ -168,9 +169,6 @@ public:
 			if (timetable > 7) {
 				int texty = 20;
 				system("cls");
-				
-				
-				//cout << "당신이 갈 수 있는 대학은 없어요";
 				if (volunteer >= 20) {
 					sum += 20;
 				}
@@ -214,11 +212,7 @@ public:
 		Sleep(1000);
 		
 	}
-	
-	/*void Start() {
-		thread threadM1(moveCharacter("나"));
-		thread threadM2(moveCharacter("왕"));
-	}*/
+
 	void moveCharacter() {
 		int key;  //움직일 때 필요한 변수 
 		   // x좌표, y좌표 

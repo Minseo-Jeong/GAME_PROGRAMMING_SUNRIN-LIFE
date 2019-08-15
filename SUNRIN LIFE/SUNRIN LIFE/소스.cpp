@@ -13,7 +13,6 @@ using namespace std;
 
 int main() {
 
-	
 	system("mode con cols=100 lines=40");
 	setCursorType(CursorInvisible);
 	string name;
@@ -40,8 +39,4 @@ int main() {
 
 
 	m.moveCharacter(name, 6-a);
-	
-	/*thread threadM1(&moveCharacter);
-	threadM1.join();*/
-	//thread threadM2();
 }
